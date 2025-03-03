@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "express": "^4.21.2",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.9.5",
+    "moongose": "^1.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "name": "dct",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.ts"
+  },
+  "author": "Subhashiny",
+  "license": "ISC",
+  "description": ""
+}
